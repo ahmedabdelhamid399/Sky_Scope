@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tertiary"
+    android:paddingBottom="8dp">
+
+    <TextView
+        android:id="@+id/text_card_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/image_card_day_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_card_day_icon"
+        tools:text="Sun, 1 Jan 2023" />
+
+    <View
+        android:id="@+id/view"
+        style="@style/HorizontalDivider"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_card_day_icon" />
+
+    <ImageView
+        android:id="@+id/image_card_day_icon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="140dp"
+        android:contentDescription="@string/image_content_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/icon_clouds_high" />
+
+    <TextView
+        android:id="@+id/text_card_day_temp_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/image_card_day_icon"
+        app:layout_constraintStart_toEndOf="@+id/image_card_day_icon"
+        app:layout_constraintTop_toTopOf="@+id/image_card_day_icon"
+        tools:text="Cloudy" />
+
+    <TextView
+        android:id="@+id/text_card_day_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/text_card_day_temp_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/text_card_day_temp_description"
+        app:layout_constraintTop_toTopOf="@+id/text_card_day_temp_description"
+        tools:text="37 °C" />
+</androidx.constraintlayout.widget.ConstraintLayout>

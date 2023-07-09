@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.iti.weatherwatch.home.view.HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_mapsFragment"
+            app:destination="@id/mapsFragment">
+            <argument
+                android:name="@string/isFavorite"
+                android:defaultValue="false"
+                app:argType="boolean" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.iti.weatherwatch.favorites.view.FavoritesFragment"
+        tools:layout="@layout/fragment_favorites">
+        <action
+            android:id="@+id/action_navigation_dashboard_to_mapsFragment"
+            app:destination="@id/mapsFragment">
+            <argument
+                android:name="@string/isFavorite"
+                android:defaultValue="true"
+                app:argType="boolean" />
+        </action>
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_displayFavoriteWeather"
+            app:destination="@id/displayFavoriteWeather" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.iti.weatherwatch.alerts.view.AlertsFragment"
+        tools:layout="@layout/fragment_alerts">
+        <action
+            android:id="@+id/action_navigation_alerts_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.iti.weatherwatch.settings.SettingsFragment"
+        android:label="settings_fragment"
+        tools:layout="@layout/settings_fragment">
+        <action
+            android:id="@+id/action_settingsFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.iti.weatherwatch.map.view.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps">
+        <action
+            android:id="@+id/action_mapsFragment_to_navigation_dashboard"
+            app:destination="@id/navigation_favorites" />
+        <action
+            android:id="@+id/action_mapsFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/displayFavoriteWeather"
+        android:name="com.iti.weatherwatch.favorites.view.DisplayFavoriteWeather"
+        android:label="display_favorite_weather_fragment"
+        tools:layout="@layout/display_favorite_weather_fragment">
+        <action
+            android:id="@+id/action_displayFavoriteWeather_to_navigation_dashboard"
+            app:destination="@id/navigation_favorites" />
+    </fragment>
+
+
+</navigation>
