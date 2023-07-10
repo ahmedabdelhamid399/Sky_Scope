@@ -6,19 +6,17 @@ Sky_Scope is an android app that displays the weather status and the temperature
 
  -Navigation Components
  
- -View binding
+ -View Binding
  
- -WorkManager
+ -Work Manager
  
- -coroutines
+ -Coroutines
  
- -Romm DB
+ -Room DB
  
  -Retrofit
  
  -Live Data
- 
- -KTX
  
  -Unit Testing
  
