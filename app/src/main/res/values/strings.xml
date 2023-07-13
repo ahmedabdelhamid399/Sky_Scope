@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Weather Watch</string>
+    <string name="app_name" translatable="false">Sky Scope</string>
     <!-- Shared Preferences -->
     <string name="shared_pref" translatable="false">com.iti.weatherwatch.ww</string>
     <string name="lat" translatable="false">lat</string>
@@ -38,23 +38,23 @@
     <string name="location_permission">Enable Location permission</string>
     <string name="location_text">location</string>
     <string name="map">Map</string>
-    <string name="map_dialog_title">Do you want to change your location on map again?</string>
+    <string name="map_dialog_title">Want to change your map location?</string>
     <string name="no">No</string>
     <string name="no_alerts_yet">No Alerts Yet</string>
     <string name="no_favorites_yet">No Favorites Yet</string>
     <string name="overlay_title">Display Permission Needed</string>
     <string name="pressure">Pressure</string>
-    <string name="seven_days_forecast">7-days forecast</string>
-    <string name="time_picker">Select Appointment time</string>
+    <string name="seven_days_forecast">The Next 7-days Forecast</string>
+    <string name="time_picker">Select Time</string>
     <string name="title_settings">Settings</string>
     <string name="to">To</string>
-    <string name="twenty_four_hour_forecast">24-hour forecast</string>
+    <string name="twenty_four_hour_forecast">The Next 24-hour Forecast</string>
     <string name="units">Temperature &amp; Wind Speed</string>
-    <string name="unit_celsius">Standard – Celsius  –  meter/sec</string>
-    <string name="unit_fahrenheit">Imperial – Fahrenheit  –  miles/hour</string>
-    <string name="unit_kelvin">Metric – Kelvin  –  meter/sec</string>
+    <string name="unit_celsius">Standard:- Celsius  –  meter/sec</string>
+    <string name="unit_fahrenheit">Imperial:– Fahrenheit  –  miles/hour</string>
+    <string name="unit_kelvin">Metric:– Kelvin  –  meter/sec</string>
     <string name="uv">UV</string>
     <string name="visibility">Visibility</string>
-    <string name="wind_speed">Wind speed</string>
+    <string name="wind_speed">Wind Speed</string>
     <string name="yes">Yes</string>
 </resources>

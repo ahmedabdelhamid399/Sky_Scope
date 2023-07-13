@@ -47,12 +47,24 @@
                         android:textStyle="bold"
                         tools:text="City" />
 
+                <LinearLayout
+                    android:id="@+id/linear_dayAndDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:paddingBottom="8dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
                     <TextView
                         android:id="@+id/text_current_day"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="@color/white"
                         android:textSize="16sp"
+                        android:padding="10dp"
                         tools:text="Week Day" />
 
                     <TextView
@@ -60,10 +72,12 @@
                         android:id="@+id/text_current_date"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
                         android:textColor="@color/white"
                         android:textSize="16sp"
+                        android:padding="10dp"
                         tools:text="Current Date" />
+
+                </LinearLayout>
 
                     <ImageView
                         android:id="@+id/image_weather_icon"
@@ -80,7 +94,7 @@
                         android:textColor="@color/white"
                         android:textSize="60sp"
                         android:textStyle="bold"
-                        tools:text="37 °C" />
+                        tools:text="25 °C" />
 
                     <TextView
                         android:id="@+id/text_temp_description"

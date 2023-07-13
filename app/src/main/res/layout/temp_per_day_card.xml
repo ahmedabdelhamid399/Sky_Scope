@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/tertiary"
+    android:background="@color/Components"
     android:paddingBottom="8dp">
 
     <TextView
@@ -16,7 +16,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/image_card_day_icon"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/image_card_day_icon"
-        tools:text="Sun, 1 Jan 2023" />
+        tools:text="Sat, 1 Aug 2023" />
 
     <View
         android:id="@+id/view"
@@ -60,5 +60,5 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/text_card_day_temp_description"
         app:layout_constraintTop_toTopOf="@+id/text_card_day_temp_description"
-        tools:text="37 °C" />
+        tools:text="25 °C" />
 </androidx.constraintlayout.widget.ConstraintLayout>

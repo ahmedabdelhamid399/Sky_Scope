@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.iti.weatherwatch.home.view.HomeFragment"
+        android:name="com.iti.skyscope.home.view.HomeFragment"
         tools:layout="@layout/fragment_home">
         <action
             android:id="@+id/action_navigation_home_to_mapsFragment"
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/navigation_favorites"
-        android:name="com.iti.weatherwatch.favorites.view.FavoritesFragment"
+        android:name="com.iti.skyscope.favorites.view.FavoritesFragment"
         tools:layout="@layout/fragment_favorites">
         <action
             android:id="@+id/action_navigation_dashboard_to_mapsFragment"
@@ -40,7 +40,7 @@
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="com.iti.weatherwatch.alerts.view.AlertsFragment"
+        android:name="com.iti.skyscope.alerts.view.AlertsFragment"
         tools:layout="@layout/fragment_alerts">
         <action
             android:id="@+id/action_navigation_alerts_to_navigation_home"
@@ -48,7 +48,7 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.iti.weatherwatch.settings.SettingsFragment"
+        android:name="com.iti.skyscope.settings.SettingsFragment"
         android:label="settings_fragment"
         tools:layout="@layout/settings_fragment">
         <action
@@ -57,7 +57,7 @@
     </fragment>
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.iti.weatherwatch.map.view.MapsFragment"
+        android:name="com.iti.skyscope.map.view.MapsFragment"
         android:label="fragment_maps"
         tools:layout="@layout/fragment_maps">
         <action
@@ -69,7 +69,7 @@
     </fragment>
     <fragment
         android:id="@+id/displayFavoriteWeather"
-        android:name="com.iti.weatherwatch.favorites.view.DisplayFavoriteWeather"
+        android:name="com.iti.skyscope.favorites.view.DisplayFavoriteWeather"
         android:label="display_favorite_weather_fragment"
         tools:layout="@layout/display_favorite_weather_fragment">
         <action

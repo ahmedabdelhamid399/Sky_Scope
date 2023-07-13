@@ -1,5 +1,5 @@
 <resources>
-    <string name="alerts">تنبيهات</string>
+    <string name="alerts">التنبيهات</string>
     <string name="alert_dialog_body">الإعدادات المتقدمة -> عرض فوق التطبيقات الأخرى</string>
     <string name="arabic">العربية</string>
     <string name="btn_cancel">إلغاء</string>
@@ -21,26 +21,26 @@
     <string name="initial_setting">الإعدادات الأولية</string>
     <string name="isFavorite">مفضلة</string>
     <string name="location_enabled">تمكين الموقع</string>
-    <string name="location_permission">تمكين إذن الموقع</string>
+    <string name="location_permission">اعطاء إذن الموقع</string>
     <string name="location_text">الموقع</string>
     <string name="map">الخريطة</string>
-    <string name="map_dialog_title">هل تريد تغيير موقعك على الخريطة مرة أخرى؟</string>
+    <string name="map_dialog_title">هل تريد تغيير الموقع مرة أخرى؟</string>
     <string name="no">لا</string>
-    <string name="no_alerts_yet">لا يوجد تنبيهات حتى الآن</string>
-    <string name="no_favorites_yet">لا يوجد مفضلات حتى الآن</string>
+    <string name="no_alerts_yet">لم تقم باضافة تنبيهات حتى الآن</string>
+    <string name="no_favorites_yet">لم تقم باضافة مواقع مفضلة حتى الآن</string>
     <string name="overlay_title">الحاجة إلى إذن العرض</string>
     <string name="pressure">الضغط</string>
-    <string name="seven_days_forecast">توقعات 7 أيام</string>
-    <string name="time_picker">اختر وقت الموعد</string>
+    <string name="seven_days_forecast">التوقعات خلال ال 7 أيام القادمة</string>
+    <string name="time_picker">اختر الوقت المناسب</string>
     <string name="title_settings">الإعدادات</string>
     <string name="to">إلى</string>
-    <string name="twenty_four_hour_forecast">توقعات 24 ساعة</string>
+    <string name="twenty_four_hour_forecast">التوقعات خلال ال 24 ساعة القادمة</string>
     <string name="units">الوحدات</string>
     <string name="unit_celsius">درجة الحرارة بالسيليزية وسرعة الرياح بالمتر/الثانية</string>
     <string name="unit_fahrenheit">درجة الحرارة بالفهرنهايت وسرعة الرياح بالأميال/الساعة</string>
     <string name="unit_kelvin">درجة الحرارة بالكيلفن وسرعة الرياح بالمتر/الثانية</string>
     <string name="uv">الأشعة فوق البنفسجية</string>
-    <string name="visibility">الرؤية</string>
+    <string name="visibility">مدي الرؤية</string>
     <string name="wind_speed">سرعة الرياح</string>
     <string name="yes">نعم</string>
 </resources>
