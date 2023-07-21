@@ -1,7 +1,7 @@
 # Sky_Scope App
 Sky_Scope is an Android app that displays the weather status and the temperature depending on your location.
 
-Check The Demo for Sky_Scope App --> [Sky_Scope Demo](https://www.linkedin.com/feed/update/urn:li:activity:7087074418203488256/).
+## Check The Demo for Sky_Scope App --> [Sky_Scope Demo](https://www.linkedin.com/feed/update/urn:li:activity:7087074418203488256/).
 
 # App Features:
 - Get your daily dose of sunshine (or rain) with our weather app! With just a few taps, you can check the weather status and temperature for the 
